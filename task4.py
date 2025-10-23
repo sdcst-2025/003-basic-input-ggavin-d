@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+π = int( 3.141592653589793 )
+h = int(  input("enter height")  )
+r = int(  input("enter radius")  )
+s = int( h^2 + r^2 )
+sa = int(π * r ^ 2 + π * r * s)
+print ( sa )
+
+

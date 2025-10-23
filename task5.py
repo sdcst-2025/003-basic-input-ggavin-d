@@ -13,3 +13,12 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+import math
+π = ( 3.14159 )
+volume = float( input("enter volume"))
+num = (volume * 3)
+denom = ( 4 * π )
+r = ( num / denom )
+radius = ( r ** (1.0 / 3))
+
+print (radius)
